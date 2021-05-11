@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto final</title>
+</head>
+<body>
+ <header>
+    <h1>Calculadora de medias</h1>
+ </header>   
+<section id="columnas">
+   <div id = "izquierda">
+        <form action=""target="self" method="get" autocomplete="off">
+            
+            <label for="prog">Programación: </label>
+            <input  type="number" id="prog" name="prog" onclick="this.value=''" >
+
+            <label for="bd">Base de datos: </label>
+            <input type="number"id="bd" name="bd" onclick="this.value=''" >
+
+            <label for="ent">Entornos de desarrollo: </label>
+            <input type="number" id="ent" name="ent" onclick="this.value=''" >
+
+            <label for="leng">Lenguaje de marcas: </label>
+            <input type="number"id="leng" name="leng" onclick="this.value=''" > 
+
+            <button type="submit" onclick="return calcularMedia();">Calcular </button>
+
+        </form>
+    </div>        
+    <div id="derecha" >
+        <form action=""target="self" method="get" autocomplete="off">
+            <label for="media">Media: </label>
+            <input type="number" id="media" name="media" readonly="readonly" >
+
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div>
+        <p>Un producto realizado por Raquel Simó</p>
+        <p>Dentro del módulo de LLMM</p>
+    </div>
+    <div>
+        <p>Dirección: Carrer Bodega </p>
+        <p>46194 Real de Montroi</p>
+    </div>
+   
+</footer>
+<script  type="text/javascript" src="appPF.js" ></script>
+</body>
+</html>
