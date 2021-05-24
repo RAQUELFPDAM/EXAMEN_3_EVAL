@@ -17,6 +17,7 @@ input{
     height: 35px;
     border: 1px solid #CED4DA;
     border-radius: 5px;
+   
 }
 button{
     height: 35px;
@@ -42,7 +43,7 @@ form{
     width: 100%;
     margin-left: 50px;
     margin-bottom: 20px;
-    height: 400px;
+    height: 460px;
     float: left;
 }
 #derecha{
@@ -61,4 +62,8 @@ footer{
 div{
     margin-left: 50px;
     width: 100%;
+}
+
+.colorIng{
+    color: blueviolet;
 }

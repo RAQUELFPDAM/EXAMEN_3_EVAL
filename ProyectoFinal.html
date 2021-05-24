@@ -27,14 +27,21 @@
             <label for="leng">Lenguaje de marcas: </label>
             <input type="number"id="leng" name="leng" onclick="this.value=''" > 
 
-            <button type="submit" onclick="return calcularMedia();">Calcular </button>
+            <label for="ing" class="colorIng">Inglés: </label>
+            <input type="number"id="ing" name="ing" onclick="this.value=''" > 
+
+            <button type="submit" onclick="return examen();">Calcular </button>
 
         </form>
-    </div>        
+    </div> 
+
     <div id="derecha" >
-        <form action=""target="self" method="get" autocomplete="off">
-            <label for="media">Media: </label>
+        <form action="" target="self" method="get" autocomplete="off">
+            <label for="media">Media sin inglés: </label>
             <input type="number" id="media" name="media" readonly="readonly" >
+
+            <label for="mediaCon">Media con inglés : </label>
+            <input type="number" id="mediaCon" name="mediaCon" readonly="readonly" >
 
         </form>
     </div>
